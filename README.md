@@ -66,10 +66,6 @@ This project segments rooftops from satellite imagery using deep learning and es
 │
 ├── app/                 Streamlit application
 │
-├── models/              Pretrained model checkpoints
-│   ├── unet.keras
-│   └── unetpp.keras
-│
 ├── README.md            Project documentation
 ├── requirements.txt     Python dependencies
 ├── LICENSE              Apache License 2.0
@@ -91,12 +87,16 @@ pip install -r requirements.txt
 
 ```text
 data/
-  train/          train_labels/
-  val/            val_labels/
-  test/           test_labels/
+├── train/
+├── train_labels/
+├── val/
+├── val_labels/
+├── test/
+└── test_labels/
 ```
 
-Images must be RGB GeoTIFFs and masks must be single-band TIFFs. Building pixels are encoded as 255 and background as 0. The dataset is not included in this repository.
+Images must be RGB GeoTIFFs and masks must be single-band TIFFs. Building pixels are encoded as 255 and background as 0. The dataset used in this study is the
+[Massachusetts Buildings Dataset](https://www.eod-grss-ieee.com/dataset-detail/M1diYXBxdlViK0dubFgwdFFsS0ZWQT09).
 
 ## Train
 
