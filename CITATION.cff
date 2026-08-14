@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Rooftop solar potential estimation"
+authors:
+  - family-names: Deo
+    given-names: Chinmay
+  - family-names: Singh
+    given-names: Manjeet
+date-released: 2025-01-01
+preferred-citation:
+  type: conference-paper
+  title: "Comparative Analysis of U-Net and U-Net++ for Rooftop Segmentation in Solar Potential Estimation"
+  authors:
+    - family-names: Deo
+      given-names: Chinmay
+    - family-names: Singh
+      given-names: Manjeet
+  year: 2025
+  doi: 10.1109/INSPECT67393.2025.11350341
