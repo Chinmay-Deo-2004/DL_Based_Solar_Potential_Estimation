@@ -128,4 +128,4 @@ PYTHONPATH=src python -m segmentation.train --data-dir data --model unetpp --out
 }
 ```
 
-P.S: If you'd like to work further on this project or collaborate on future research, feel free to get in touch at chinmay.deo@telwise-research.com!
+P.S, If you'd like to work further on this project or collaborate on future research, feel free to get in touch at chinmay.deo@telwise-research.com!
